@@ -201,17 +201,17 @@ At last, we use isnull().sum() to check the data after cleaning. We can found th
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 19418 entries, 0 to 19417
 Data columns (total 9 columns):
-    Column          Non-Null Count  Dtype 
----  ------          --------------  ----- 
- 0   id              19418 non-null  int64 
- 1   date            19418 non-null  object
- 2   username        19418 non-null  object
- 3   tweet           19418 non-null  object
- 4   language        19418 non-null  object
- 5   replies_count   19418 non-null  int64 
- 6   retweets_count  19418 non-null  int64 
- 7   likes_count     19418 non-null  int64 
- 8   hashtags        19418 non-null  object
+    |Column|          |Non-Null| |Count|  |Dtype| 
+|---|  |------|          |--------------|  |-----|
+ |0|   id              |19418 non-null|  int64 
+ |1|   date            |19418 non-null|  object
+ |2|   username        |19418 non-null|  object
+ |3|   tweet           |19418 non-null|  object
+ |4|   language        |19418 non-null|  object
+ |5|   replies_count   |19418 non-null|  int64 
+ |6|   retweets_count  |19418 non-null|  int64 
+ |7|   likes_count     |19418 non-null|  int64 
+ |8|   hashtags        |19418 non-null|  object
 dtypes: int64(4), object(5)
 memory usage: 1.3+ MB
 None
