@@ -237,16 +237,26 @@ In addition, we used a logistic model to predict the features that would most in
 # Modeling Phase(Sentiment Analysis)
 ## 4.1 Selecting Modeling Techniquies
 
+For Sentiment Analysis:
+JMP software is a great tool we learned in text mining that is used for designed experiments and analyzing statistical data from industrial processes. This tool is very good statistical tool in it features and functionalities.  So, I used this software to run a sentiment analysis based on the tweets PlayStation file. 
+````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+For Logistic Regression:
+
 ## 4.2 Generate Test Design
+For Sentiment Analysis:
 
 ## 4.3 Build Model
+For Sentiment Analysis:
 
 ## 4.4 Assess Model
+For Sentiment Analysis:
 
 # Evaluation Phase
 ## 5.1 Evaluate Results
+For Sentiment Analysis:
 
 ## 5.2 Review Process
+For Sentiment Analysis:
 
 ## 5.3 Determine Next Steps
 
