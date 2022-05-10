@@ -201,7 +201,7 @@ At last, we use isnull().sum() to check the data after cleaning. We can found th
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 19418 entries, 0 to 19417
 Data columns (total 9 columns):
- #   Column          Non-Null Count  Dtype 
+    Column          Non-Null Count  Dtype 
 ---  ------          --------------  ----- 
  0   id              19418 non-null  int64 
  1   date            19418 non-null  object
