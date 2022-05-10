@@ -164,7 +164,34 @@ A quick rundown of each phase of the project plan is given below:
 This our initial data's link : https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/Sony_Playstation_tweets.csv
 
 ## 2.2 Describe Data
-
+| Variable  | Description |
+| :---      |         ---:  |
+| id        | id for rows and data  |
+| conversation_id| id for the tweet conversations |
+| created_at  | When the tweet was created at |
+| date  | Date when tweet was sent out |
+| time | Time when tweet was published |
+| timezone | Timezone where the tweet was sent|
+| user_id | The id of the twitter user that sent out the tweet|
+| username| The username of the twitter user |
+| name | Name of the twitter user |
+| place | Where the tweet was sent from |
+| tweet | The tweet text |
+| language | The language the tweet was sent in |
+| mentions | The mentions of the tweet |
+| urls | The urls attached in the tweet |
+| photos | The photos used in the tweet |
+| replies_count | Count of replies the tweet received |
+| retweets_count | Count of retweets the tweet received |
+| likes_count | Number of likes the tweet received |
+| hashtags | The hashtags included in the tweet |
+| cashtags | The cashtags included in the tweet |
+| link | Link used in the tweet |
+| retweet | Whether the tweet was retweeted true or false |
+| quote_url | The url for the quote tweet|
+| Video | The number of videos embedded in the tweet |
+| thumbnail | The thumbnail image jpeg |
+| reply_to | The tweet that is being replied to |
 
 
 ## 2.3 Explore Data
@@ -198,33 +225,7 @@ To delete these columns, we use drop() function. We keep these columns:(id, date
 
 At last, we use isnull().sum() to check the data after cleaning. We can found there is no missing value on the dataset. Data preprocessing is complete, we can proceed to the next step.
 
-`<class 'pandas.core.frame.DataFrame'>
-RangeIndex: 19418 entries, 0 to 19417
-Data columns (total 9 columns):
- #   Column          Non-Null Count  Dtype 
----  ------          --------------  ----- 
- 0   id              19418 non-null  int64 
- 1   date            19418 non-null  object
- 2   username        19418 non-null  object
- 3   tweet           19418 non-null  object
- 4   language        19418 non-null  object
- 5   replies_count   19418 non-null  int64 
- 6   retweets_count  19418 non-null  int64 
- 7   likes_count     19418 non-null  int64 
- 8   hashtags        19418 non-null  object
-dtypes: int64(4), object(5)
-memory usage: 1.3+ MB
-None
-id                0
-date              0
-username          0
-tweet             0
-language          0
-replies_count     0
-retweets_count    0
-likes_count       0
-hashtags          0
-dtype: int64`
+
 
 
 ## 3.3 Feature Selection
