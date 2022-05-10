@@ -20,13 +20,21 @@
 	* [3.1 Select Data](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#31-select-data)
 	* [3.2 Clean Data](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#32-clean-data)
 	* [3.3 Feature Selection](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#33-feature-selection)
-	* [3.4 Sentiment Analysis](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#34-sentiment-analysis)
-* [4. Deployment Phase](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#deployment-phase)
+* [4. Modeling Phase](https://github.com/LMU-MSBA/bsan-6080-reMarkable#modeling-phase)
+	* [4.1 Selecting Modeling Techniquies](https://github.com/LMU-MSBA/bsan-6080-reMarkable#41-selecting-modeling-techniquies-)
+	* [4.2 Generate Test Design](https://github.com/LMU-MSBA/bsan-6080-reMarkable#42-generate-test-design-)
+	* [4.3 Build Model](https://github.com/LMU-MSBA/bsan-6080-reMarkable#43-build-model-)
+	* [4.4 Assess Model](https://github.com/LMU-MSBA/bsan-6080-reMarkable#44-assess-model-)
+* [5. Evaluation Phase](https://github.com/LMU-MSBA/bsan-6080-reMarkable#evaluation-phase)
+	* [5.1 Evaluate Results](https://github.com/LMU-MSBA/bsan-6080-reMarkable#51-evaluate-results-)
+	* [5.2 Review Process](https://github.com/LMU-MSBA/bsan-6080-reMarkable#52-review-process-)
+	* [5.3 Determine Next Steps](https://github.com/LMU-MSBA/bsan-6080-reMarkable#53-determine-next-steps-)	
+* [6. Deployment Phase](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#deployment-phase)
 * [Sprint 4:](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#sprint-4)
-	* [4.1 AB Test](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#41-ab-test)
-	* [4.2 Strategic-Dashboard](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#42-strategic-dashboard)
-	* [4.3 Analytical-Dashboard](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#43-analytical-dashboard)
-	* [4.4 Experience-Documentation](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#44-experience-documentation)
+	* [6.1 AB Test](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#41-ab-test)
+	* [6.2 Strategic-Dashboard](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#42-strategic-dashboard)
+	* [6.3 Analytical-Dashboard](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#43-analytical-dashboard)
+	* [6.4 Experience-Documentation](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/README.md#44-experience-documentation)
 # Sprint 1: 
 # Business Understanding Phase
 ## 1.1 Business Objectives:
@@ -176,7 +184,21 @@ Furthermore the dataset contains very recent data can be considered highly relev
 
 ## 3.3 Feature Selection
 
-## 3.4 Sentiment Analysis
+# Modeling Phase(Sentiment Analysis)
+## 4.1 Selecting Modeling Techniquies
+
+## 4.2 Generate Test Design
+
+## 4.3 Build Model
+
+## 4.4 Assess Model
+
+# Evaluation Phase
+## 5.1 Evaluate Results
+
+## 5.2 Review Process
+
+## 5.3 Determine Next Steps
 
 # Deployment Phase
 # Sprint 4:
