@@ -181,8 +181,29 @@ Furthermore the dataset contains very recent data can be considered highly relev
 ## 3.1 Select Data
 
 ## 3.2 Clean Data
+In data preparation, we need to import pandas firstly. Then, we can use pd.read_csv() function to read csv file ’ Sony_Playstation_tweets.csv’.
+
+After load data set, we need a descriptive analysis of data. We use following function for analysis:
+1.	Head(): get the first 5 rows
+2.	Describe(): calculating some statistical data like percentile, mean and std of the numerical values of the Series or DataFrame
+3.	Info(): prints information about the DataFrame
+4.	Isnull().sum(): total number of null
+5.	Size: find dataframe size
+6.	Shape: find dataframe shape
+7.	Ndim: find the number of dimensions
+
+So we observer the first 5 rows of dataframe. And understand some statistical data and data type for each column. Size is 699048. Shape is (19418, 36). Dimension is 2. In the missing value check, we found that some columns have a large number of missing values. For example, ‘place’ has 19417 missing value. We decide to drop these columns.
+
+To delete these columns, we use drop() function. We keep these columns:(id, date, username, tweet, language, replies_count, retweets_count, likes_count, hashtags).
+
+At last, we use isnull().sum() to check the data after cleaning. We can found there is no missing value on the dataset. Data preprocessing is complete, we can proceed to the next step.
+
 
 ## 3.3 Feature Selection
+Machine learning models allow businesses to predict consumer buying habits, market trends, popular products, and more, allowing retailers to make informed business decisions based on these predictions. Additionally, companies can build models to analyze larger, more complex data and deliver faster, more accurate results. It enables organizations to identify lucrative opportunities and potential risks faster. Organizations gain a more accurate and robust ability to forecast demand. It can also help companies take advantage of important opportunities to gain deeper insights into data.
+In our project, we used JMP software. It is used to design experiments and analyze statistical data from industrial processes. This tool is a very good statistical tool in terms of its features and functionality. So, our team use this software to run sentiment analysis based on the PlayStation files of tweets. 
+In addition, we used a logistic model to predict the features that would most influence the subscriptions for the PlayStation and PlayStation Plus respectively. We found out payment amount and payment cycle are the features that influence the subscription the most. The reasons behind it, for different people, the amount they can afford for a monthly payment vary as well. So, some people probably cannot afford the subscription price. And since the salary amount is set, some people may not have extra money for the subscription for a set up time period. 
+
 
 # Modeling Phase(Sentiment Analysis)
 ## 4.1 Selecting Modeling Techniquies
