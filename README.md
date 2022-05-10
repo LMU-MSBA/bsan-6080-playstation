@@ -149,6 +149,16 @@ A quick rundown of each phase of the project plan is given below:
 * Duration: 2-5 days
 
 # Sprint 2: 
+# Data Understanding Phase
+## 2.1 Collect Initial Data
+
+## 2.2 Describe Data
+
+## 2.3 Explore Data
+
+## 2.4 Verify Data Quality
+
+
 
 # Sprint 3: 
 # Data Preparation Phase
