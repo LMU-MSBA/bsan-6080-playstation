@@ -309,7 +309,8 @@ Good thing with this software, we can see a list of all the words included in th
 Figure 3: sentiment analisis summary
 ## 5.2 Review Process
 For Sentiment Analysis:
-
+We know what most people say about the PlayStation through sentiment analysis of tweets. It was found that the majority of people held positive emotions. It helps companies understand how satisfied users are with our products. This further improves user satisfaction.
+From the data source, our text only includes the content of the tweet. Does not include other people's replies, like or dislike. JMP only analyzes the semantics of a single word. Analysis without context. The accuracy may need to be further improved.
 
 ## 5.3 Determine Next Steps
 For Sentiment Analysis:
