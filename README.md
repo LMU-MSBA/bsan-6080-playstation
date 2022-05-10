@@ -198,6 +198,34 @@ To delete these columns, we use drop() function. We keep these columns:(id, date
 
 At last, we use isnull().sum() to check the data after cleaning. We can found there is no missing value on the dataset. Data preprocessing is complete, we can proceed to the next step.
 
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 19418 entries, 0 to 19417
+Data columns (total 9 columns):
+ #   Column          Non-Null Count  Dtype 
+---  ------          --------------  ----- 
+ 0   id              19418 non-null  int64 
+ 1   date            19418 non-null  object
+ 2   username        19418 non-null  object
+ 3   tweet           19418 non-null  object
+ 4   language        19418 non-null  object
+ 5   replies_count   19418 non-null  int64 
+ 6   retweets_count  19418 non-null  int64 
+ 7   likes_count     19418 non-null  int64 
+ 8   hashtags        19418 non-null  object
+dtypes: int64(4), object(5)
+memory usage: 1.3+ MB
+None
+id                0
+date              0
+username          0
+tweet             0
+language          0
+replies_count     0
+retweets_count    0
+likes_count       0
+hashtags          0
+dtype: int64
+
 
 ## 3.3 Feature Selection
 Machine learning models allow businesses to predict consumer buying habits, market trends, popular products, and more, allowing retailers to make informed business decisions based on these predictions. Additionally, companies can build models to analyze larger, more complex data and deliver faster, more accurate results. It enables organizations to identify lucrative opportunities and potential risks faster. Organizations gain a more accurate and robust ability to forecast demand. It can also help companies take advantage of important opportunities to gain deeper insights into data.
