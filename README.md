@@ -312,6 +312,8 @@ For Sentiment Analysis:
 
 
 ## 5.3 Determine Next Steps
+For Sentiment Analysis:
+Natural language processing is a very complex thing. Because the same words have different meanings in different contexts. We tend to use deep learning content for sentiment analysis in the future. such as convolutional neural networks and bert.
 
 # Deployment Phase
 # Sprint 4:
