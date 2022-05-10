@@ -285,7 +285,7 @@ For Logistic Regression:
 
 ## 4.2 Generate Test Design
 For Sentiment Analysis:
-Utilize the function of JMP， and upload csv for analysis.
+Utilize the function of JMP, and upload csv for analysis. JMP can count the frequency of occurrences. Categorize words with emotion. Count the frequency of words with different emotions.
 
 ## 4.3 Build Model
 For Sentiment Analysis:
