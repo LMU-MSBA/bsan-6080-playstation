@@ -152,12 +152,19 @@ A quick rundown of each phase of the project plan is given below:
 # Data Understanding Phase
 ## 2.1 Collect Initial Data
 
+This our initial data's link : https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/Sony_Playstation_tweets.csv
+
 ## 2.2 Describe Data
+
+
 
 ## 2.3 Explore Data
 
 ## 2.4 Verify Data Quality
 
+The dataset contains columns that are completely null and another column with only one value. The columns which are nothing but null are the following: 'near','geo','source','user_rt_id','user_rt','retweet_id','retweet_date','translate','trans_src','trans_dest' and the column with only one value is the ‘retweet’ column which contains row values of false and no true. 
+
+Furthermore the dataset contains very recent data can be considered highly relevant to our research. 
 
 
 # Sprint 3: 
