@@ -314,7 +314,7 @@ From the data source, our text only includes the content of the tweet. Does not 
 
 ## 5.3 Determine Next Steps
 For Sentiment Analysis:
-Natural language processing is a very complex thing. Because the same words have different meanings in different contexts. We tend to use deep learning content for sentiment analysis in the future. such as convolutional neural networks and bert.
+Natural language processing is a very complex thing. Because the same words have different meanings in different contexts. We tend to use deep learning content for sentiment analysis in the future. such as convolutional neural networks and bert. This can help us further improve the accuracy.
 
 # Deployment Phase
 # Sprint 4:
