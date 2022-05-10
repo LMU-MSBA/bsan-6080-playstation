@@ -295,12 +295,18 @@ Using this tool, I obtained a word cloud based on the top count words from this 
 For Sentiment Analysis:
 We have a good understanding of the frequency of words, the frequency of various emotions.we got what we want.
 ![alt text](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/cloud.png) 
+Figure 1: Word Cloud
+
+![alt text](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/table%20of%20sentiment.png) 
+Figure 2: table of sentiment 
 
 # Evaluation Phase
 ## 5.1 Evaluate Results
 For Sentiment Analysis:
 Good thing with this software, we can see a list of all the words included in the sentiment analysis and see if they are positive or negative. Based from the list on the right, you can see that from the top 10 words the majority are positive and they are only 3 bad words. You can also see the scores of each of the words at how good or bad they are based on the score. 90/-90 being the maximum. Also, if you click the word best for example, a bunch of tweets with the word best shows up. Some interesting ones are customers talking about how play station has the best games.  In the last visualization on the bottom, you see the overall scores and a histogram with the distribution. From it you can conclude, that play station’s customers has on overall a more positive experience.
 
+![alt text](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/sentiment%20analysis%20sumary1.png) 
+Figure 3: sentiment analisis summary
 ## 5.2 Review Process
 For Sentiment Analysis:
 
