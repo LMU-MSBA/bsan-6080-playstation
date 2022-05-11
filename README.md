@@ -282,14 +282,21 @@ For Sentiment Analysis:
 JMP software is a great tool we learned in text mining that is used for designed experiments and analyzing statistical data from industrial processes. This tool is very good statistical tool in it features and functionalities.  So, I used this software to run a sentiment analysis based on the tweets PlayStation file. 
 
 For Logistic Regression:
+Logistic regression is a classification model rather than a regression model. Logistic regression is a simple and more efficient method for binary and linear classification problems. It is a classification model, which is very easy to realize and achieves very good performance with linearly separable classes. It is an extensively employed algorithm for classification in industry.
 
 ## 4.2 Generate Test Design
 For Sentiment Analysis:
 Utilize the function of JMP, and upload csv for analysis. JMP can count the frequency of occurrences. Categorize words with emotion. Count the frequency of words with different emotions.
 
+For Logistic Regression:
+We use our Jupyter Notebook to create the regression model. We read the csv file using its link on the cloud database, and then utilize it for further modeling. Logistic regression can help us classify our analysis into binary options that would make it more straighforward for us. Scikit-learn has a highly optimized version of logistic regression implementation, which supports multiclass classification task. We load tis library to use the logistic regression function.
+
 ## 4.3 Build Model
 For Sentiment Analysis:
 Using this tool, I obtained a word cloud based on the top count words from this dataset. Then, I continued to color coded based on the influence of the tweets.Then I continued to run a sentiment analysis using the tweets, as we wanted to dig deeper on the customer’s opinion of PlayStation and their overall experience with them.
+
+For Logistic Regression:
+For the Logistic Regression we wanted to see whether our PS plus and PS now subscribers would stay with us or leave us. We created two models using the logistic regression, one for each of the services. So naturally these were the target variables for us as well. For the feature selection we didn't have enough information to go with, so we had to create another variable which was Region where we wanted to see whether being in the US compared to the rest of the world, it had an impact on the subscription status. Along with Region, we used the Pay Cycle and System variables to figure out which of our subscribers we could predict to stay with us.
 
 ## 4.4 Assess Model
 For Sentiment Analysis:
@@ -300,6 +307,9 @@ Figure 1: Word Cloud
 ![alt text](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/table%20of%20sentiment.png) 
 Figure 2: table of sentiment 
 
+For Logistic Regression:
+From the results of the models, both had a recall of around 90% which we’re going to take with a pinch of salt because of the low number of features for our models. The region variable was unsurprisingly the least significant where it didn’t really have much of an impact on whether a subscriber will stay with us or not. The system variable had some significance and lastly the Pay Cycle had a really significant impact on the retention of the subscribers.
+
 # Evaluation Phase
 ## 5.1 Evaluate Results
 For Sentiment Analysis:
@@ -307,14 +317,24 @@ Good thing with this software, we can see a list of all the words included in th
 
 ![alt text](https://github.com/LMU-MSBA/bsan-6080-playstation/blob/main/sentiment%20analysis%20sumary1.png) 
 Figure 3: sentiment analisis summary
+
+For Logistic Regression:
+Our model was able to give us some interesting results which could be useful for the company. It predicted that the pay cycle of a user's subscription had a significant impact of whether they would continue with the service or not. The high significance predicted that annual subscribers were more likely to renew their subscription compared to monthly subscribers. The second feature that had a slightly lower significance was the system variable which showed that ps5 users were more likely to stay on with the company. Lastly the least significant of the variables was the region feature where it was slightly more likely that users in the United States were subscribing compared to the rest of the world.
+
 ## 5.2 Review Process
 For Sentiment Analysis:
 We know what most people say about the PlayStation through sentiment analysis of tweets. It was found that the majority of people held positive emotions. It helps companies understand how satisfied users are with our products. This further improves user satisfaction.
 From the data source, our text only includes the content of the tweet. Does not include other people's replies, like or dislike. JMP only analyzes the semantics of a single word. Analysis without context. The accuracy may need to be further improved.
 
+For Logistic Regression:
+We did not have a lot of useful features to work with for building the regression model therefore the results will not be as reliable as we would have hoped for before we began this project. It did tell us a couple of things that it matters more that PlayStation is able to market its users to subscribe to services with longer commitments as they are the proponents of high revenues and improvements in the services. There need to be more features added in to our dataset so we can improve our model and better predict whether a user will stay with us or not.
+
 ## 5.3 Determine Next Steps
 For Sentiment Analysis:
 Natural language processing is a very complex thing. Because the same words have different meanings in different contexts. We tend to use deep learning content for sentiment analysis in the future. such as convolutional neural networks and bert. This can help us further improve the accuracy.
+
+For Logistic Regression:
+Logistic Regression is a simple machine learning model and it is one of the easiest to implement. What we can do is gather more data and find features that are more likely to impact whether a subscriber of Playstation services stays with the company or not. We can look into something like prices of services in different countries or data about the marketing of these services etc. When we will have more features in our dataset, we will have a better option to select and drop features with low prediction power for our model. This will help make our model more accurate and improve the reliability of its results.
 
 # Deployment Phase
 # Sprint 4:
